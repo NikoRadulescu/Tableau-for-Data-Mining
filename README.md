@@ -43,25 +43,22 @@ To format the percentage label:
 - Click on **Decimal Places** and choose **0**;
 - Press **control**(Windows) or **command**(Mac), click on **Number of records** in the **Marks** working space and drag it to the **Rows** filed above;
 
-**note**: From this test we find out that females (25%) are more likely to leave the bank than males (16%).
+###  Insights:
+From this test we find out that females (25%) are more likely to leave the bank than males (16%).
 
-
-###  4. Format:
-- Go to **Format** (top left) and click on **Worksheet** (a rectangle with format settings should appear on the right);
-- Choose the font and size as you please (this will apply the same format settings to all the worksheet);
-
-
-###  5. Give aliases:
-- Click on **Exited** in the **Dimensions** field and choose **Aliases**;
-- Give **0** and **1** **Value (Alias)** : **Stayed** for **0** and **Exited** for **1**;
-**Optional**: drag the **Exited** field from **Dimensions** to the **Label** square from the **Marks** working space.
-
-
-###  6. Adding a Reference line (adding a Reference line show a bigger picture of the total number of clients that left the bank over a time period, regardless of the gender) :
+To validate our insights we need to add a Reference line (adding a Reference line show a bigger picture of the total number of clients that left the bank over a time period, regardless of the gender) :
 - Go to **Analytics** field on the top left;
 - From **Custom** field choose **Reference Line** and drag it onto the percentage axis (a rectangle with options should appear);
 - Drag the **Reference Line** onto the **Table** option (other editing rectangle should appear in the working space);
 - From the **Computation** dropdown choose **Constant**. A number should appear in the **Value** dropdown menu. Change it to **0.20** (this is the percentage of clients that left the bank regardless of the gender);
 - Change the **Label** field from **Value** to **None**;
+
+
+### Extra formating:
+- Go to **Format** (top left) and click on **Worksheet** (a rectangle with format settings should appear on the right);
+- Choose the font and size as you please (this will apply the same format settings to all the worksheet);
+- Click on **Exited** in the **Dimensions** field and choose **Aliases**;
+- Give **0** and **1** **Value (Alias)** : **Stayed** for **0** and **Exited** for **1**;
+**Optional**: drag the **Exited** field from **Dimensions** to the **Label** square from the **Marks** working space.
 
 
