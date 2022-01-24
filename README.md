@@ -6,7 +6,7 @@ I used [Churn Modelling](https://sds-platform-private.s3-us-east-2.amazonaws.com
 
 
 ###  1. First steps:
-- Download the csv file in the section above;
+- Download the .xlsx file in the section above;
 - Login into **Tableau Public**;
 - Click on **My Profile**;
 - Click on **Create a Viz** (a window should appear);
